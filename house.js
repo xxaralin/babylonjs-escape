@@ -681,7 +681,7 @@ function room1(){
             }
     });
     
-            BABYLON.SceneLoader.Append("/button/","button.obj", scene, function (buttonx) {
+            BABYLON.SceneLoader.Append("button/","button.obj", scene, function (buttonx) {
             var buttonx=scene.getMeshByName("Object.1");
             buttonx.name="button";
             var button=scene.getMeshByName("button");
